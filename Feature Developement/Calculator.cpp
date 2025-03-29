@@ -22,3 +22,9 @@ int sub(int a , int b){
 int mul(int a ,int b){
     return a*b;
 }
+
+//Division function 
+
+int divi(int a,int b){
+    return a/b;
+}
