@@ -34,3 +34,23 @@ int divi(int a,int b){
 int mod(int a, int b){
     return a%b;
 }
+
+int main(){
+    int a,b;
+
+    cout<<"Enter two space seperated numbers"<<endl;
+    cin>>a>>b;
+
+    cout<<"Enter \n1 for Addition \n2 for Subtraction \n3 for Multiplication \n4 for Division \n5 for Modulus"<<endl;
+
+    int ch;
+    cin>>ch;
+    switch(ch){
+        case 1: cout<<add(a,b)<<endl; break;
+        case 2: cout<<sub(a,b)<<endl; break;
+        case 3: cout<<mul(a,b)<<endl; break;
+        case 4: cout<<divi(a,b)<<endl; break;
+        case 5: cout<<mod(a,b)<<endl; break;
+        default: cout<<"Invalid choice"<<endl;
+    }
+}
