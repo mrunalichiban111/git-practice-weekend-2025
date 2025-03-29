@@ -28,3 +28,9 @@ int mul(int a ,int b){
 int divi(int a,int b){
     return a/b;
 }
+
+//Modulus Function
+
+int mod(int a, int b){
+    return a%b;
+}
