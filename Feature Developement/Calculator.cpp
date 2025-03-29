@@ -10,3 +10,9 @@ using namespace std;
 int add(int a,int b){
     return a+b;
 }
+
+// subtraction Function 
+
+int sub(int a , int b){
+    return a-b;
+}
